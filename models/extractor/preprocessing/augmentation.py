@@ -42,6 +42,7 @@ def apply_augmentation(frames: list[np.ndarray]) -> list[np.ndarray]:
         frame_aug = TF.adjust_contrast(frame_aug, contrast_factor)
         frame_aug = TF.adjust_hue(frame_aug, hue_factor)
         frame_aug = TF.adjust_saturation(frame_aug, saturation_factor)
+        frame_aug = TF.to_tensor(frame_aug)
         augmented_frames.append(frame_aug)
 
     return augmented_frames

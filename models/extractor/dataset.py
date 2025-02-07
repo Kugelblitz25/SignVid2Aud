@@ -12,7 +12,9 @@ from pytorchvideo.transforms import (
 )
 from torch.utils.data import Dataset
 from torchvision.transforms import Compose, Lambda
-
+from torchvision.transforms._transforms_video import (
+    CenterCropVideo,
+)
 
 # Model specific
 side_size = 256
@@ -34,7 +36,7 @@ transform = ApplyTransformToKey(
             Lambda(lambda x: (x / 255.0) * 2 - 1),
             # NormalizeVideo(mean, std),
             ShortSideScale(size=side_size),
-            UniformCropVideo(size=(crop_size, crop_size)),
+            CenterCropVideo(crop_size=(crop_size, crop_size)),
         ]
     ),
 )
