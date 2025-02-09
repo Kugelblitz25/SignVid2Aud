@@ -1,0 +1,24 @@
+name: Ruff Format
+
+on: [push]
+
+jobs:
+  format:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4  # Git repository checkout
+      with:
+        fetch-depth: 0
+
+    - uses: actions/setup-python@v5  # Python environment setup
+      with:
+        python-version: '3.10'
+        cache: 'pip'  # Cache pip dependencies
+
+    - name: Install Ruff
+      run: pip install ruff
+
+    - name: Run Ruff Format and Fix
+      run: |
+        ruff format .  # Auto-format code
+        ruff check --fix .  # Auto-fix linting issues
