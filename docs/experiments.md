@@ -3,6 +3,7 @@
 ## I3D Model Experiments
 
 ### 2000 Glosses
+
 - Initial attempt with full dataset
 - Challenges:
   - Long training time (3-4 hours per epoch)
@@ -10,6 +11,7 @@
   - Data sparsity and class imbalance
 
 ### 100 Glosses
+
 - Fine-tuned on top 100 glosses
 - Architecture modifications:
   - Frozen initial layers
@@ -20,21 +22,24 @@
 ## Audio Generation Experiments
 
 ### 1. Librosa and HiFi-GAN
+
 - Results: High-pitched sounds, not meaningful
 - Adequacy: Poor
 - Fluency: Poor
 
 ### 2. Librosa Only
+
 - Results: Meaningful but robotic
 - Adequacy: Good
 - Fluency: Poor
 
 ### 3. Tacotron2 and HiFi-GAN
+
 - Results: Human-like, meaningful audio
 - Adequacy: Good
 - Fluency: Good
 
 ## Performance Metrics
 
-![I3D Training Results](assets/i3d_results.png)
-![MLP Training Results](assets/mlp_results.png)
+![I3D Training Results](assets/extractor_wlasl.jpg)
+![MLP Training Results](assets/transformer_wlasl.jpg)

@@ -1,0 +1,34 @@
+---
+---
+
+@import "{{ site.theme }}";
+.site-footer-contributors {
+  margin-top: 1rem;
+}
+
+.site-footer-contributors ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.site-footer-contributors li {
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  text-align: center;      
+}
+
+.site-footer-contributors li a {
+  display: flex;
+  align-items: center;     
+  gap: 0.5rem;            
+}
+
+.site-footer-contributors img {
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}

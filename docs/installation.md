@@ -38,6 +38,14 @@ curl -L -o archive.zip 'https://www.kaggle.com/api/v1/datasets/download/risangba
 ./trainer.sh
 ```
 
+
+> **Note**: If you get `ModuleNotFoundError: No module named 'models'`, run
+>
+> ```shell
+> export PYTHONPATH=$(pwd)
+> ```
+>
+
 ### Testing
 
 1. Download pre-trained weights:
