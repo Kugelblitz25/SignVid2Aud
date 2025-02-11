@@ -5,6 +5,7 @@ Welcome to the Sign2Speech project documentation. This innovative project aims t
 ## Navigation
 
 - [Project Overview](#project-overview)
+- [ASL Info](asl_info.md)
 - [Technical Architecture](architecture.md)
 - [Dataset Information](datasets.md)
 - [Experiments & Results](experiments.md)
