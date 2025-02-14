@@ -1,4 +1,8 @@
-# Sign Language Video to Audio without text
+# Sign2Speech: Converting Sign Language to Audio without Text Intermediaries
+
+<p align="center">
+  <img src="docs/favicon.ico" alt="Logo" width="400">
+</p>
 
 ## Training
 
@@ -59,7 +63,6 @@ python3 models/extractor/train.py
 > ```shell
 > export PYTHONPATH=$(pwd)
 > ```
->
 
 ### Feature Transformer
 
