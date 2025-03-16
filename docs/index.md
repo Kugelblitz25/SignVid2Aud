@@ -37,9 +37,9 @@ The primary innovation lies in our direct video-to-audio pipeline, which elimina
 3. Professional environments to facilitate seamless workplace communication
 4. Public services and emergency response situations
 
-
+<!--
 ## Get Involved
 
 - [Project Repository](https://github.com/Kugelblitz25/sign2speech/)
 - [Download Pre-trained Weights](https://drive.google.com/drive/folders/150wd1GsVxnIXq3btG0EEhhXS9gBYnJ2f?usp=sharing)
-- [Report Issues](https://github.com/Kugelblitz25/sign2speech/issues)
+- [Report Issues](https://github.com/Kugelblitz25/sign2speech/issues)-->

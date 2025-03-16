@@ -6,13 +6,13 @@
 - 32GB RAM minimum
 
 ## Setup Instructions
-
+<!--
 1. Clone the repository:
 ```bash
 git clone https://github.com/Kugelblitz25/sign2speech.git
 cd sign2speech
 ```
-
+-->
 2. Create and activate virtual environment:
 ```bash
 python3 -m venv .venv
@@ -49,7 +49,7 @@ curl -L -o archive.zip 'https://www.kaggle.com/api/v1/datasets/download/risangba
 ### Testing
 
 1. Download pre-trained weights:
-- [Google Drive Link](https://drive.google.com/drive/folders/150wd1GsVxnIXq3btG0EEhhXS9gBYnJ2f?usp=sharing)
+<!-- - [Google Drive Link](https://drive.google.com/drive/folders/150wd1GsVxnIXq3btG0EEhhXS9gBYnJ2f?usp=sharing)-->
 - Save extractor weights to `models/extractor/checkpoints`
 - Save transformer weights to `models/transformer/checkpoints`
 
